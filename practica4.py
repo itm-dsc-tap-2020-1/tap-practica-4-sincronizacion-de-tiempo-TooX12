@@ -21,6 +21,6 @@ print('\nTiempo Inicio: '+str(time_1))
 print('Tiempo Llegada: '+str(time_2))
 print('Tiempo Servidor: '+str(time_server))
 print('Ajuste: '+str(adjust))
-print('Reloj: '+str(clock))
+print('Reloj: '+str(clock)+'\n')
 
 os.system(f"date --set '{clock}'")
